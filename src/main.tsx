@@ -4,6 +4,9 @@ import { Layout } from './Layout.tsx'
 import { createHashRouter, RouterProvider} from "react-router-dom"
 import { Home } from './pages/Home.tsx'
 import { About } from './pages/About.tsx'
+
+
+
 const router=createHashRouter([
   {
     path:"/",
